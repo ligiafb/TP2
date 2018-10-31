@@ -165,12 +165,12 @@ Para maximizar a potência o algoritmo foi otimizado para aumentar ou diminuir o
 | _ _ | Taxa de transferência(Mbits/s) | Atraso(ms) |   | Potência  |
 | --- | --- | --- | --- | --- |
 |   |   |   |   |   |
-| Média | 3,58 | 105 |   | 34,15 |
-| Mediana | 3,62 | 108 |   | 33,99 |
-| Modo | 3,63 | 112 |   | 32,84 |
-| Mínimo | 2,97 | 94 |   | 32,36 |
-| Máximo | 3,88 | 114 |   | 36,61 |
-| Contagem (Rept.) | 40 | 40 |   | 40 |
+| Média | 3,58 | 105 | 34,15 |
+| Mediana | 3,62 | 108 | 33,99 |
+| Modo | 3,63 | 112 | 32,84 |
+| Mínimo | 2,97 | 94 | 32,36 |
+| Máximo | 3,88 | 114 | 36,61 |
+| Contagem (Rept.) | 40 | 40 | 40 |
 
 
 
