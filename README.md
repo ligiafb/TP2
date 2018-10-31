@@ -29,7 +29,7 @@ Foram testados vários tamanhos de janela com um intervalo incremental de tamanh
 Os valores médios das simulações (por janela) foram utilizados para gerar os gráficos apresentados abaixo. A figura 1 apresenta o gráfico 2D de taxa de transferência versus o atraso no sinal com percentil de 95.
 
 
-[![Figura 1](https://pandao.github.io/editor.md/en.html "Figura 1")](https://pandao.github.io/editor.md/en.html "Figura 1")
+[![Figura 1](https://image.ibb.co/cgqVdL/fig-1.jpg "Figura 1")](https://image.ibb.co/cgqVdL/fig-1.jpg "Figura 1")
 
 Para compreender melhor os resultados, foi gerado o gráfico (Figura 2) para a potência versus o tamanho da janela.
 
