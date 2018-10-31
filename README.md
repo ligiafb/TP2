@@ -66,7 +66,7 @@ Para analisar quão repetíveis são as medições feitas com o mesmo tamanho de
 
 A Tabela 3 apresenta uma análise dos dados utilizando estatística descritiva
 
-**   Tabela**  **3** **- Estatística descritiva (Janela de tamanho 90)**
+**Tabela**  **3** **- Estatística descritiva (Janela de tamanho 90)**
 
 |   | Taxa de transferência (Mbits/s) | _Atraso (_ms_)_ |
 | --- | --- | --- |
@@ -100,7 +100,7 @@ A Tabela 3 apresenta uma análise dos dados utilizando estatística descritiva
 
  Para a construção da Tabela 4, foram testadas as Variações da janela com os valores 1, 2, 3 e 4 e a Diminuição multiplicativa com 0.5, 0.6, 1, 2, 3 e 4. Os resultados mostram que a melhor configuração encontrada é a Variação da janela = 1 e a Diminuição multiplicativa = 0.66 para confirmar esse resultado, esta simulação foi repetida mais de 35 vezes. Os resultados destas repetições são apresentados na Tabela 5. A análise estatística (Tabela 6) mostra que está configuração apresenta a melhor potência quando comparado com as demais (Tabela 4).
 
-**Tabela**  **5**** - **** Repetições da melhor configuração encontrada para o AIMD**
+**Tabela** **5**** - **** Repetições da melhor configuração encontrada para o AIMD**
 
 | Execuções | Taxa de transferência (Mbits/s) | Atraso (ms) | Potência |
 | --- | --- | --- | --- |
@@ -144,7 +144,7 @@ A Tabela 3 apresenta uma análise dos dados utilizando estatística descritiva
 | 38 | 3,57 | 139 | 25,72 |
 | 39 | 3,49 | 130 | 26,86 |
 
-***Tabela**  **6** **- Estatística descritiva AIMD (Variação janela=1/Diminuição multiplicativa=0.66)**
+**Tabela**  **6** **- Estatística descritiva AIMD (Variação janela=1/Diminuição multiplicativa=0.66)**
 
 |   | Taxa de transferência (Mbits/s) | Atraso(ms) | Potência  |
 | --- | --- | --- | --- |
