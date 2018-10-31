@@ -45,3 +45,7 @@ Para maximizar a potência o algoritmo foi otimizado para aumentar ou diminuir o
 Após encontrar a melhor configuração, a simulação foi repetida 40 vezes para verificar a consistência dos resultados. A estatística descritiva das repetições (Tabela 7) mostra que a variação entre o valor mínimo e máximo é pequena. Com relação à média da potência (34,15), verificou-se que esta implementação apresentou uma melhora no desempenho quando comparado com o esquema proposto no exercício B (24,30).
 
 [![Tabela 7](https://image.ibb.co/mqHj3L/Tabela7.jpg "Tabela 7")](https://image.ibb.co/mqHj3L/Tabela7.jpg "Tabela 7")
+
+**
+Exercício E [0%]: escolha um nome legal para o seu esquema**
+http://cs344g.keithw.org/report?Lih-1540948299-faleefei
