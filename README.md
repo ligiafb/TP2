@@ -1,4 +1,4 @@
-**Exercício de aquecimento A [10%]:** _Varie o tamanho da janela fixa editando controller.cc para ver o que acontece. Faça um gráfico 2D de taxa de transferência versus um atraso no sinal com percentil de 95 a medida que você altera esse valor. Qual é o melhor tamanho de janela única que você pode encontrar para maximizar a potência (taxa de transferência/atraso)? Quão repetíveis são as medições feitas com o mesmo tamanho de janela em várias execuções?_
+7**Exercício de aquecimento A [10%]:** _Varie o tamanho da janela fixa editando controller.cc para ver o que acontece. Faça um gráfico 2D de taxa de transferência versus um atraso no sinal com percentil de 95 a medida que você altera esse valor. Qual é o melhor tamanho de janela única que você pode encontrar para maximizar a potência (taxa de transferência/atraso)? Quão repetíveis são as medições feitas com o mesmo tamanho de janela em várias execuções?_
 
 [![fig](https://image.ibb.co/jtMNsf/Tabela2.jpg "fig")](https://image.ibb.co/jtMNsf/Tabela2.jpg "fig")
 
@@ -31,7 +31,7 @@ Foram testados vários tamanhos de janela com um intervalo incremental de tamanh
 Os valores médios das simulações (por janela) foram utilizados para gerar os gráficos apresentados abaixo. A figura 1 apresenta o gráfico 2D de taxa de transferência versus o atraso no sinal com percentil de 95.
 
 <p float="center" align="center" >
-    <img src='img/Tabela1.JPG' width='50%' title='Figura 1' alt='Figura 1' /> 
+    <img src='img/Tabela1.JPG' width='70%' title='Figura 1' alt='Figura 1' /> 
 </p>
 
 Para compreender melhor os resultados, foi gerado o gráfico (Figura 2) para a potência versus o tamanho da janela.
