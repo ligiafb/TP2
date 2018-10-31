@@ -144,7 +144,7 @@ A Tabela 3 apresenta uma análise dos dados utilizando estatística descritiva
 | 38 | 3,57 | 139 | 25,72 |
 | 39 | 3,49 | 130 | 26,86 |
 
-**Tabela**  **6** **- Estatística descritiva AIMD (Variação janela=1/Diminuição multiplicativa=0.66)**
+***Tabela**  **6** **- Estatística descritiva AIMD (Variação janela=1/Diminuição multiplicativa=0.66)**
 
 |   | Taxa de transferência (Mbits/s) | Atraso(ms) | Potência  |
 | --- | --- | --- | --- |
