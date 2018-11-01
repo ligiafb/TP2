@@ -23,7 +23,7 @@ Conforme pode ser observado na figura 1, ao passo que a taxa de tranferência é
 
 
 <p float="center" align="center" >
-    <img src='img/Tabela2.JPG' width='65%' title='Figura 1' alt='Figura 1' /> 
+    <img src='img/Tabela2.JPG' width='60%' title='Figura 1' alt='Figura 1' /> 
 </p>
 
 
@@ -46,7 +46,7 @@ Conforme pode ser observado na figura 1, ao passo que a taxa de tranferência é
  Para a construção da Tabela 4, foram testadas as Variações da janela com os valores 1, 2, 3 e 4 e a Diminuição multiplicativa com 0.5, 0.6, 1, 2, 3 e 4. Os resultados mostram que a melhor configuração encontrada é a Variação da janela = 1 e a Diminuição multiplicativa = 0.66 para confirmar este resultado, a simulação com esta configuração foi repetida mais de 35 vezes. Os resultados destas repetições são apresentados na Tabela 5.
 
 <p float="center" align="center" >
-    <img src='img/Tabela5.JPG' width='65%' title='Figura 1' alt='Figura 1' /> 
+    <img src='img/Tabela5.JPG' width='60%' title='Figura 1' alt='Figura 1' /> 
 </p>
 
 A análise estatística dos dados são apresentados na Tabela 6. Ao analisar os resultados obtidos é possível afirmar que esta configuração apresenta a melhor potência quando comparado com as demais (Tabela 4).
