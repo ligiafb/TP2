@@ -59,9 +59,9 @@ void Controller::ack_received( const uint64_t sequence_number_acked,
   if (packet_counter >= cur_window_size) {
     const uint64_t threshold = 90;
     if (cur_rtt >= threshold) {
-      cur_window_size = cur_window_size * 2 / 3;
+      cur_window_size = cur_window_size * 2 / 3; /* Diminuição Mutiplicativa*/
 
-/*Aumenta janela*/
+/*Variação da janela*/
     } else {
       cur_window_size += 1;
     }
