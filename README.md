@@ -48,7 +48,8 @@ A Tabela 3 apresenta uma análise dos dados utilizando estatística descritiva
     <img src='img/Tabela5.JPG' width='70%' title='Figura 1' alt='Figura 1' /> 
 </p>
 
- A análise estatística dos dados são apresentados na Tabela6.  mostra que está configuração apresenta a melhor potência quando comparado com as demais (Tabela 4).
+A análise estatística dos dados são apresentados na Tabela 6. Ao analisar os resultados obtidos, é possível afirmar que esta configuração apresenta a melhor potência quando comparado com as demais (Tabela 4).
+
 
 <p float="center" align="center" >
     <img src='img/Tabela6.JPG' width='70%' title='Figura 1' alt='Figura 1' /> 
