@@ -57,7 +57,7 @@ A análise estatística dos dados são apresentados na Tabela 6. Ao analisar os 
 
 
 
-**Exercício D [50%]: Tente diferentes abordagens e trabalhe para maximizar a potência (compare com os resultados dos demais colegas da sala e tente melhorar). Em seu relatório, explique sua abordagem, incluindo as decisões importantes que você teve que tomar e como você as fez. Inclua gráficos ilustrativos com os resultados. **
+**Exercício D [50%]: Tente diferentes abordagens e trabalhe para maximizar a potência (compare com os resultados dos demais colegas da sala e tente melhorar). Em seu relatório, explique sua abordagem, incluindo as decisões importantes que você teve que tomar e como você as fez. Inclua gráficos ilustrativos com os resultados.**
 
 Para maximizar a potência o algoritmo foi otimizado para aumentar ou diminuir o tamanho da janela de forma adaptativa. A abordagem é menos agressiva que a apresentada no exercício B com relação ao congestionamento, sendo mais focada no controle e com o objetivo de evitar o congestionamento.  O esquema possui o seguinte funcionamento:  O atraso é calculado a partir do RTT (atraso = tempo do ACK recebido menos o tempo do ACK enviado), se o atraso for maior que o valor estipulado o tamanho da janela é reduzido até a normalização da fila. Caso o atraso seja menor que o valor estipulado, a janela é incrementada.  Em caso de congestionamento, isto é, se após o _timeout_ a janela ainda estiver apresentando um valor alto, o tamanho da janela é dividido pela metade.
 
