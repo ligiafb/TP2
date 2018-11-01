@@ -32,7 +32,7 @@ Conforme pode ser observado na figura 1, ao passo que a taxa de tranferência é
     <img src='img/Tabela3.JPG' width='70%' title='Figura 1' alt='Figura 1' /> 
 </p>
 
- Após observar a tabela 2 concluiu-se que os dados são bastante repetíveis. Em 20 execuções foram repetidos apenas 5 valores para a taxa de transferência e 4 para o atraso. Na estatística descritiva (Tabela 3) é possível observar que o intervalo entre o valor mínimo e máximo é pequeno, indicando que não há grandes variações nos resultados. A média e mediana também são muito próximas (poucos centésimos de Mbits/s e Ms), deste modo, ambas podem ser utilizadas para representar a taxa de transferência e o atraso para a janela.
+ Após observar a tabela 2 concluiu-se que os dados são bastante repetíveis (apenas 5 valores distintos para a taxa de transferência e 4 para o atraso). Na estatística descritiva (Tabela 3) é possível observar que o intervalo entre o valor mínimo e máximo é pequeno, indicando que não há grandes variações nos resultados. A média e mediana também são muito próximas (poucos centésimos de Mbits/s e Ms), deste modo, ambas podem ser utilizadas para representar a taxa de transferência e o atraso para a janela.
 
 **Exercício de aquecimento B [40%]: Implemente um esquema AIMD simples, semelhante a fase de prevenção de congestionamento do TCP. Quão bem isso funciona? Quais constantes você escolheu.**
 
