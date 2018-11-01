@@ -48,7 +48,7 @@ Conforme pode ser observado na figura 1, ao passo que a taxa de tranferência é
     <img src='img/Tabela5.JPG' width='70%' title='Figura 1' alt='Figura 1' /> 
 </p>
 
-A análise estatística dos dados são apresentados na Tabela 6. Ao analisar os resultados obtidos, é possível afirmar que esta configuração apresenta a melhor potência quando comparado com as demais (Tabela 4).
+A análise estatística dos dados são apresentados na Tabela 6. Ao analisar os resultados obtidos é possível afirmar que esta configuração apresenta a melhor potência quando comparado com as demais (Tabela 4).
 
 
 <p float="center" align="center" >
