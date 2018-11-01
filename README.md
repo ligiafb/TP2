@@ -68,6 +68,18 @@ Para maximizar a potência o algoritmo foi otimizado para aumentar ou diminuir o
     <img src='img/Tabela7.JPG' width='70%' title='Figura 1' alt='Figura 1' /> 
 </p>
 
+<p float="center" align="center" >
+    <img src='img/Grafico site 1.JPG' width='70%' title='Figura 1' alt='Figura 1' /> 
+</p>
+
+<p float="center" align="center" >
+    <img src='img/Grafico site 2.JPG' width='70%' title='Figura 1' alt='Figura 1' /> 
+</p>
+
+<p float="center" align="center" >
+    <img src='img/figura site 1.JPG' width='70%' title='Figura 1' alt='Figura 1' /> 
+</p>
+
 
 **Exercício E [0%]: escolha um nome legal para o seu esquema**
 
