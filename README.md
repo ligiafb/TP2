@@ -1,4 +1,4 @@
-**Exercício de aquecimento A [10%]:** _Varie o tamanho da janela fixa editando controller.cc para ver o que acontece. Faça um gráfico 2D de taxa de transferência versus um atraso no sinal com percentil de 95 a medida que você altera esse valor. Qual é o melhor tamanho de janela única que você pode encontrar para maximizar a potência (taxa de transferência/atraso)? Quão repetíveis são as medições feitas com o mesmo tamanho de janela em várias execuções?
+**Exercício de aquecimento A [10%]: Varie o tamanho da janela fixa editando controller.cc para ver o que acontece. Faça um gráfico 2D de taxa de transferência versus um atraso no sinal com percentil de 95 a medida que você altera esse valor. Qual é o melhor tamanho de janela única que você pode encontrar para maximizar a potência (taxa de transferência/atraso)? Quão repetíveis são as medições feitas com o mesmo tamanho de janela em várias execuções?**
 
 
 Foram testados vários tamanhos de janela com um intervalo incremental de tamanho 5. A Tabela 1 apresenta o resultado de cada simulação e a potência que foi calculada a partir da taxa de transferência e o atraso.
@@ -36,7 +36,7 @@ A Tabela 3 apresenta uma análise dos dados utilizando estatística descritiva
 
  Após observar a tabela 2 concluiu-se que os dados são bastante repetíveis. Em 20 execuções foram repetidos apenas 5 valores para a taxa de transferência e 4 para o atraso. Na estatística descritiva (Tabela 3) é possível observar que o intervalo entre o valor mínimo e máximo é pequeno, então não há grandes variações nos resultados. A média e mediana também são muito próximas (poucos centésimos de Mbits/s e Ms) assim ambas podem ser utilizadas para representar a taxa de transferência e o atraso para a janela.
 
-**Exercício de aquecimento B [****40%]:**_Implemente um esquema AIMD simples, semelhante a fase de prevenção de congestionamento do TCP. Quão bem isso funciona? Quais constantes você escolheu._
+**Exercício de aquecimento B [40%]: Implemente um esquema AIMD simples, semelhante a fase de prevenção de congestionamento do TCP. Quão bem isso funciona? Quais constantes você escolheu.**
 
  Para este exercício foi implementado um esquema simples de ajuste da janela de congestionamento que imita o comportamento do AIMD (_Additive Increase, Multiplicative Decrease_). Este mecanismo reage ao congestionamento de acordo com a largura de banda (detectada) utilizando a seguinte abordagem: Quando não há indicação de perda o remetente aumenta taxa de transmissão (tamanho da janela em 1 slot/RTT), sondando a capacidade utilizável. Quando há um indício de congestionamento (detecção da perda) ocorre a diminuição multiplicativa (janela de congestionamento é reduzida). Nesta implementação foram utilizadas as variáveis Diminuição Multiplicativa e a Variação da Janela, estes valores são estáticos e fixados manualmente. O tamanho _threshold_ foi configurado de acordo com os melhores resultados de atraso obtido no exercício A. Foram realizadas várias simulações alterando os valores das variáveis Diminuição Multiplicativa/Variação da Janela. Os resultados da performance são apresentados na Tabela 4.
 
@@ -58,7 +58,7 @@ A Tabela 3 apresenta uma análise dos dados utilizando estatística descritiva
 
 
 
-**Exercício D [50%]: Tente diferentes abordagens e trabalhe para maximizar a potência (compare com os resultados dos demais colegas da sala e tente melhorar). Em seu relatório, explique sua abordagem, incluindo as decisões importantes que você teve que tomar e como você as fez. Inclua gráficos ilustrativos com os resultados.**
+**Exercício D [50%]: Tente diferentes abordagens e trabalhe para maximizar a potência (compare com os resultados dos demais colegas da sala e tente melhorar). Em seu relatório, explique sua abordagem, incluindo as decisões importantes que você teve que tomar e como você as fez. Inclua gráficos ilustrativos com os resultados. **
 
 Para maximizar a potência o algoritmo foi otimizado para aumentar ou diminuir o tamanho da janela de forma adaptativa. A abordagem é menos agressiva que a apresentada no exercício B com relação ao congestionamento, sendo mais focada no controle e com o objetivo de evitar o congestionamento.  O esquema possui o seguinte funcionamento:  O atraso é calculado a partir do RTT (atraso = tempo do ACK recebido menos o tempo do ACK enviado), se o atraso for maior que o valor estipulado o tamanho da janela é reduzido até a normalização da fila. Caso o atraso seja menor que o valor estipulado, a janela é incrementada.  Em caso de congestionamento, isto é, se após o _timeout_ a janela ainda estiver apresentando um valor alto, o tamanho da janela é dividido pela metade.
 
