@@ -83,5 +83,6 @@ Abaixo são apresentados os gráficos gerados em uma das simulações utilizando
 
 
 **Exercício E [0%]: escolha um nome legal para o seu esquema**
+
 Nome> lih
 [http://cs344g.keithw.org/report?Lih-1540948299-faleefei](http://cs344g.keithw.org/report?Lih-1540948299-faleefei)
