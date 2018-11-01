@@ -23,7 +23,7 @@ Conforme pode ser observado na figura 1, ao passo que a taxa de tranferência é
 
 
 <p float="center" align="center" >
-    <img src='img/Tabela2.JPG' width='70%' title='Figura 1' alt='Figura 1' /> 
+    <img src='img/Tabela2.JPG' width='60%' title='Figura 1' alt='Figura 1' /> 
 </p>
 
 
