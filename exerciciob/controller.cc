@@ -31,7 +31,7 @@ void Controller::datagram_was_sent( const uint64_t sequence_number,
 				    /* datagram was sent because of a timeout */ )
 {
 /* Default: take no action */
-/* Reduz janela 1/3 depois do timeout */
+/* Reduz janela após timeout */
  
   if (after_timeout) {
     cur_window_size /= 1;
@@ -53,7 +53,7 @@ void Controller::ack_received( const uint64_t sequence_number_acked,
                                /* when the ack was received (by sender) */
 {
 /* Default: take no action */
-/*Compara contador com janela - Compara round trip time com limite*/
+/*Compara contador com janela - Compara RTT com limite*/
 /**/
   const uint64_t cur_rtt = timestamp_ack_received - send_timestamp_acked;
   if (packet_counter >= cur_window_size) {
@@ -61,12 +61,12 @@ void Controller::ack_received( const uint64_t sequence_number_acked,
     if (cur_rtt >= threshold) {
       cur_window_size = cur_window_size * 2 / 3;
 
-/*Incrementa janela*/
+/*Aumenta janela*/
     } else {
       cur_window_size += 1;
     }
 
-/*Incrementa contador de pacotes*/
+/*contador de pacotes*/
     packet_counter = 0;
   } else {
     packet_counter += 1;
