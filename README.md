@@ -43,7 +43,7 @@ A Tabela 3 apresenta uma análise dos dados utilizando estatística descritiva
 </p>
 
 
- Para a construção da Tabela 4, foram testadas as Variações da janela com os valores 1, 2, 3 e 4 e a Diminuição multiplicativa com 0.5, 0.6, 1, 2, 3 e 4. Os resultados mostram que a melhor configuração encontrada é a Variação da janela = 1 e a Diminuição multiplicativa = 0.66 para confirmar esse resultado, esta simulação foi repetida mais de 35 vezes. Os resultados destas repetições são apresentados na Tabela 5. A análise estatística (Tabela 6) mostra que está configuração apresenta a melhor potência quando comparado com as demais (Tabela 4).
+ Para a construção da Tabela 4, foram testadas as Variações da janela com os valores 1, 2, 3 e 4 e a Diminuição multiplicativa com 0.5, 0.6, 1, 2, 3 e 4. Os resultados mostram que a melhor configuração encontrada é a Variação da janela = 1 e a Diminuição multiplicativa = 0.66 para confirmar esse resultado, esta simulação com esta configuração foi repetida mais de 35 vezes. Os resultados destas repetições são apresentados na Tabela 5. A análise estatística apresentada na Tabela 6 mostra que está configuração apresenta a melhor potência quando comparado com as demais (Tabela 4).
 
 <p float="center" align="center" >
     <img src='img/Tabela5.JPG' width='70%' title='Figura 1' alt='Figura 1' /> 
