@@ -55,7 +55,7 @@ void Controller::ack_received( const uint64_t sequence_number_acked,
 
 {
   uint64_t atraso = timestamp_ack_received - send_timestamp_acked; /*Calculo RTT */
-  cerr << "RTT: " << delay << endl;
+  cerr << "RTT: " << atraso << endl;
   cerr << "Window Size: " << window_size_ << endl;
 
 /*Se o atraso for maior 80 a janela é reduzida */
