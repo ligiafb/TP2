@@ -13,7 +13,7 @@ Os valores médios das simulações (por janela) foram utilizados para gerar os 
     <img src='img/fig 1.JPG' width='50%' title='Figura 1' alt='Figura 1' /> 
 </p>
 
-Para compreender melhor os resultados, foi gerado o gráfico (Figura 2) para a potência versus o tamanho da janela.
+Para compreender melhor os resultados foi gerado o gráfico (Figura 2) para a potência versus o tamanho da janela.
 
 <p float="center" align="center" >
     <img src='img/fig 2.JPG' width='50%' title='Figura 1' alt='Figura 1' /> 
