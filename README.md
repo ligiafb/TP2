@@ -7,13 +7,13 @@ Para entender o comportamento do sistema foram testados vários tamanhos de jane
     <img src='img/Tabela1.JPG' width='70%' title='Figura 1' alt='Figura 1' /> 
 </p>
 
-Os valores médios das simulações (por janela) foram utilizados para gerar os gráficos apresentados abaixo. A figura 1 apresenta o gráfico 2D de taxa de transferência versus o atraso no sinal com percentil de 95.
+Os valores obtidos durante as simulações (por janela) foram utilizados para gerar os gráficos apresentados abaixo. A figura 1 apresenta o gráfico 2D da taxa de transferência versus o atraso no sinal com percentil de 95. 
 
 <p float="center" align="center" >
     <img src='img/fig 1.JPG' width='50%' title='Figura 1' alt='Figura 1' /> 
 </p>
 
-Para compreender melhor os resultados foi gerado o gráfico (Figura 2) para a potência versus o tamanho da janela.
+Para melhor compreensão dos resultados, foi gerado o gráfico (Figura 2) para a potência versus o tamanho da janela.
 
 <p float="center" align="center" >
     <img src='img/fig 2.JPG' width='50%' title='Figura 1' alt='Figura 1' /> 
