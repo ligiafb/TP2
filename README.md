@@ -19,7 +19,7 @@ Para melhor compreensão dos resultados, foi gerado o gráfico (Figura 2) para a
     <img src='img/fig 2.JPG' width='50%' title='Figura 1' alt='Figura 1' /> 
 </p>
 
-Conforme pode ser observado na figura 1, ao passo que a taxa de tranferência é aumentada é constatado um maior atraso. O gráfico da potência (Figura 2) mostrou que a janela de tamanho 15 foi a que apresentou os melhores resultados. Para analisar quão repetíveis são as medições feitas com o mesmo tamanho de janela em várias execuções, foram realizadas 20 repetições para o tamanho de janela 90. A tabela 2 apresenta o resultado de cada execução e a Tabela 3 apresenta uma análise dos dados utilizando estatística descritiva.
+Conforme pode ser observado na figura 1, ao passo que a taxa de tranferência é aumentada é constatado um maior atraso. O gráfico da potência (Figura 2) mostrou que a janela de tamanho 15 foi a que apresentou os melhores resultados. Para analisar quão repetíveis são as medições feitas com o mesmo tamanho de janela em várias execuções, foram realizadas 35 repetições para o tamanho de janela 90. A tabela 2 apresenta o resultado de cada execução e a Tabela 3 apresenta uma análise dos dados utilizando estatística descritiva.
 
 
 <p float="center" align="center" >
