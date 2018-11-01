@@ -71,7 +71,7 @@ Para maximizar a potência o algoritmo foi otimizado para aumentar ou diminuir o
 A seguir são apresentados os gráficos gerados em uma das simulações utilizando o melhor cenário encontrado:
 
 <p float="center" align="center" >
-    <img src='img/Grafico site 1.JPG' width='70%' title='Figura 1' alt='Figura 1' /> 
+    <img src='img/Grafico site 3.JPG' width='70%' title='Figura 1' alt='Figura 1' /> 
 </p>
 
 <p float="center" align="center" >
