@@ -10,13 +10,13 @@ Para entender o comportamento do sistema foram testados vários tamanhos de jane
 Os valores obtidos durante as simulações (por janela) foram utilizados para gerar os gráficos apresentados abaixo. A figura 1 apresenta o gráfico 2D da taxa de transferência versus o atraso no sinal com percentil de 95. 
 
 <p float="center" align="center" >
-    <img src='img/fig 1.JPG' width='50%' title='Figura 1' alt='Figura 1' /> 
+    <img src='img/fig 1.JPG' width='60%' title='Figura 1' alt='Figura 1' /> 
 </p>
 
 Para melhor compreensão dos resultados, foi gerado o gráfico (Figura 2) para a potência versus o tamanho da janela.
 
 <p float="center" align="center" >
-    <img src='img/fig 2.JPG' width='50%' title='Figura 1' alt='Figura 1' /> 
+    <img src='img/fig 2.JPG' width='60%' title='Figura 1' alt='Figura 1' /> 
 </p>
 
 Conforme pode ser observado na figura 1, ao passo que a taxa de tranferência é aumentada é constatado um maior atraso. O gráfico da potência (Figura 2) mostrou que a janela de tamanho 15 foi a que apresentou os melhores resultados. Para analisar quão repetíveis são as medições feitas com o mesmo tamanho de janela em várias execuções, foram realizadas 35 repetições para o tamanho de janela 90. A tabela 2 apresenta o resultado de cada execução e a Tabela 3 apresenta uma análise dos dados utilizando estatística descritiva.
