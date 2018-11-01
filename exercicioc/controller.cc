@@ -58,14 +58,14 @@ void Controller::ack_received( const uint64_t sequence_number_acked,
   cerr << "RTT: " << delay << endl;
   cerr << "Window Size: " << window_size_ << endl;
 
-/*Se o atraso for maior 70 (Padrão 100) rezuz a janela */
-  if(delay > 70){
+/*Se o atraso for maior 80 a janela é reduzida */
+  if(delay > 80){
     window_size_ *= (1.0 - (0.5/window_size_));
   }
   if(window_size_ < 1)
       window_size_ = 1;
-/*Se o atraso for menor que  70 (Padrão 100) aumenta a janela */
-  if(delay < 70) {
+/*Se o atraso for menor que  80 a janela é incrementada */
+  if(delay < 80) {
     window_size_ += (4.0/ floor(window_size_));
   }
   if ( debug_ ) {
